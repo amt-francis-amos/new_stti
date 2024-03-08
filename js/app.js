@@ -1,12 +1,6 @@
 $(document).ready(function() {
     // -- HERO SLIDER
-    var heroSlider = $('#hero-slider');
-
-    heroSlider.on('refreshed.owl.carousel', function(event) {
-        // Handle refresh event, if needed
-    });
-
-    heroSlider.owlCarousel({
+    $('#hero-slider').owlCarousel({
         loop:true,
         margin:0,
         nav:true,
@@ -16,22 +10,18 @@ $(document).ready(function() {
         navText:[ 'PREV', 'NEXT'],
         responsive:{
             0:{
-                nav:false,
+               nav:false,
             },
-            768:{
-                nav:true,
-            }
+           768:{
+            nav:true,
+           }
         }
     });
 
+
+
     // -- PROJECT SLIDER
-    var projectSlider = $('#project-slider');
-
-    projectSlider.on('refreshed.owl.carousel', function(event) {
-        // Handle refresh event, if needed
-    });
-
-    projectSlider.owlCarousel({
+    $('#project-slider').owlCarousel({
         loop:true,
         margin:24,
         nav:true,
@@ -40,14 +30,29 @@ $(document).ready(function() {
         navText:[ 'PREV', 'NEXT'],
         responsive:{
             0:{
+                items:1,
+                nav:false,
+                margin:0,
             },
-            768:{
-                items:2,
-            },
-            1140:{
+           768:{
+              items:2,
+           },
+           1140:{
                 items:2,
                 center:true,
-            }
+           }
         }
-    });
-});
+    })
+
+
+
+
+
+
+
+
+})
+
+
+
+
