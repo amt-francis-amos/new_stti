@@ -5,6 +5,7 @@ $(document).ready(function() {
         margin:0,
         nav:true,
         items:1,
+        smartSpeed:1000,
         responsive:{
             0:{
                
