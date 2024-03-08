@@ -18,7 +18,7 @@ $(document).ready(function() {
         }
     });
 
-    // PROJECT SLIDER
+    // --PROJECT SLIDER
     $('#project-slider').owlCarousel({
         loop: true,
         margin: 24,
