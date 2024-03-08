@@ -81,7 +81,7 @@ img {
 }
 
 .navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link .active {
+.navbar .navbar-nav .nav-link.active {
   color: #052c97;
   font-weight: 700;
 }
