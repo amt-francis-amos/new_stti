@@ -128,6 +128,6 @@ img{
 /* ----SLIDER---- */
 
 .slide1{
-    background-image:url('../images/school-bg.jpg');
+    background:linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)),url('../images/school-bg.jpg');
    
 }
