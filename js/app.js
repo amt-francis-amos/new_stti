@@ -24,11 +24,9 @@ $(document).ready(function() {
     $('#project-slider').owlCarousel({
         loop:true,
         margin:24,
-        nav:false,
+        nav:true,
         items:1,
-        dots:false,
         smartSpeed:1000,
-        navText:[ 'PREV', 'NEXT'],
         responsive:{
             0:{
             
