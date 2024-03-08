@@ -165,6 +165,8 @@ section{
 
 
 /* ---- ABOUT ----- */
+
+
 /* ----INFOBOX--- */
 .info-box{
     display:flex;
@@ -175,5 +177,16 @@ section{
 .info-box img{
     width:90px;
     margin-right:18px;
+}
+
+.about-img{
+  border-radius:15px;
+  filter: grayscale(1);
+  cursor:pointer;
+}
+
+
+.about-img:hover{
+  filter: grayscale(0);
 }
 
