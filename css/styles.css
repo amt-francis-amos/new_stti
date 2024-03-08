@@ -190,3 +190,16 @@ section{
   filter: grayscale(0);
 }
 
+/* ---MILESTONE----- */
+
+#milestone{
+
+    background: linear-gradient(rgba(8, 22, 173, 0.8), rgba(37, 20, 165, 0.8)),
+      url("../images/about-img.jpg");
+ 
+}
+
+
+#milestone .display-4{
+      font-weight:700;
+}
