@@ -2,7 +2,7 @@ $(document).ready(function() {
     // -- HERO SLIDER
     $('#hero-slider').owlCarousel({
         loop:true,
-        margin:10,
+        margin:0,
         nav:true,
         items:1,
         responsive:{
