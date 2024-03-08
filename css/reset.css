@@ -32,9 +32,12 @@ section{
 }
 
 .intro{
+  margin-bottom:40px;
+}
+
+.intro h6{
   font-weight:400;
-  color:#052c97;
-  margin-bottom:30px;
+  color: #052c97;
 }
 
 .intro p{
