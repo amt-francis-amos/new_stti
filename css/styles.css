@@ -145,6 +145,17 @@ img{
     display:grid;
     place-items:center;
     background:rgba(255,255,255,0.2) !important;
-    font-size:32px !important;
+    margin-top:-30px !important;
+     color:#fff !important;
+    font-weight:700 !important;
+    font-size:12px !important;
+    border-radius:100px !important;
+}
 
+.owl-prev{
+    left:0;
+}
+
+.owl-next{
+    right:0;
 }
