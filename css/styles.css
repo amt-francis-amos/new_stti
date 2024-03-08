@@ -135,3 +135,16 @@ img{
     background:linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)),url('../images/it-img.jpg');
    
 }
+
+/* ----- OWL CAROUSEL NEXT & PREV--- */
+.owl-prev, .owl-next{
+    position:absolute;
+    top:50%;
+    width:60px !important;
+    height:60px;
+    display:grid;
+    place-items:center;
+    background:rgba(255,255,255,0.2) !important;
+    font-size:32px !important;
+
+}
