@@ -12,9 +12,44 @@ $(document).ready(function() {
             0:{
                nav:false,
             },
-           
+           768:{
+            nav:true,
+           }
+        }
+    });
+
+
+
+    // -- PROJECT SLIDER
+    $('#project-slider').owlCarousel({
+        loop:true,
+        margin:24,
+        nav:false,
+        items:1,
+        dots:false,
+        smartSpeed:1000,
+        navText:[ 'PREV', 'NEXT'],
+        responsive:{
+            0:{
+            
+            },
+           768:{
+         
+           },
+           1140:{
+                items:2,
+                center:true,
+           }
         }
     })
+
+
+
+
+
+
+
+
 })
 
 
