@@ -78,6 +78,7 @@ img{
 
 .navbar{
     box-shadow:0px 6px 30px rgba(0,0,0,0.08);
+    height:88px;
 }
 
 
@@ -87,7 +88,7 @@ img{
     font-weight:700;
 }
 
-.navbar-brand{
+/* .navbar-brand{
     font-weight:700;
     color:#092032;
     font-size:26px;
@@ -95,6 +96,11 @@ img{
 
 .navbar-brand span{
     color:#052c97;
+   
+} */
+
+.navbar-brand .logo{
+    width:200px;
    
 }
 
