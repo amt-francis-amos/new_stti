@@ -190,6 +190,9 @@ section{
   filter: grayscale(0);
 }
 
+
+/* ----END OF ABOUT ----- */
+
 /* ---MILESTONE----- */
 
 #milestone{
@@ -203,3 +206,12 @@ section{
 #milestone .display-4{
       font-weight:700;
 }
+
+/* --- END OF MILESTONE */
+
+
+/* -----SERVICES----- */
+
+
+
+/* -----END OF SERVICES */
