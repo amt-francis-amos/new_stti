@@ -32,6 +32,10 @@ img {
   width: 100%;
 }
 
+section{
+    padding:80px 0;
+}
+
 .bg-cover {
   background-position: center !important;
   background-size: cover !important;
@@ -158,3 +162,18 @@ img {
 .owl-next:hover {
     background:#052c97 !important;
 }
+
+
+/* ---- ABOUT ----- */
+/* ----INFOBOX--- */
+.info-box{
+    display:flex;
+    align-items:center;
+}
+
+
+.info-box img{
+    width:90px;
+    margin-right:18px;
+}
+
